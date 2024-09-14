@@ -486,7 +486,7 @@ _In essence, APIs make it easier for developers to create new applications and s
      * Commonly used in microservices architectures for efficient communication between services.
    * **Date Introduced:** 2016.
 
-The choice of API type depends on various factors, including the desired level of access, the complexity of the data, and the target audience.
+_The choice of API type depends on various factors, including the desired level of access, the complexity of the data, and the target audience._
 
 ___
 
