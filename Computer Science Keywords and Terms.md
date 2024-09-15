@@ -772,4 +772,36 @@ ___
 _**DevOps is a cultural shift that requires organizations to adopt new practices, tools, and mindsets.**_
 _By embracing DevOps, organizations can achieve significant benefits in terms of efficiency, quality, and time-to-market._
 
+___
+
+## TOR (The Onion Router) Browser
+
+- #### TOR (The Onion Router) Browser is a web browser that uses a specialized type of VPN called the TOR network to protect your privacy and anonymity online. 
+- #### The TOR network consists of thousands of volunteer-operated servers, known as relays, that are distributed around the world. 
+- #### When you use TOR, your traffic is routed through multiple relays, making it difficult for anyone to track your online activity.
+
+### Key features of TOR Browser:
+
+- #### Anonymity: Hides your IP address and browsing history.
+- #### Privacy: Protects your online identity and prevents tracking.
+- #### Accessibility: Allows you to access websites that may be blocked or censored in your region.
+- #### Security: Encrypts your traffic to protect against eavesdropping.
+
+#### This browser is often used by journalists, activists, and individuals who want to protect their privacy online.
+
+### How TOR works:
+
+1. #### _Your computer connects to a random entry node._ This node encrypts your traffic and sends it to another random node in the network.
+2. #### _The traffic is relayed through multiple nodes._ Each node decrypts the traffic, re-encrypts it, and sends it to the next node in the chain.
+3. #### _The traffic eventually reaches an exit node._ This node decrypts the traffic and sends it to the destination website.
+
+#### By routing your traffic through multiple layers, TOR makes it difficult for anyone to identify your IP address or track your browsing history. This helps to protect your privacy and anonymity online.
+
+#### _It's important to note that while TOR provides a high level of privacy, it's not completely anonymous. There are still ways for experienced attackers to track your online activity, especially if you use other services that reveal your identity._
+
+___
+
+
+
+
 
