@@ -46,7 +46,7 @@
 **Launch your AWS instance with following preferences:**
 
 - Ubuntu OS
-- t2.xlarge (16GB ram)
+- t3.xlarge (16GB ram)
 - 50 GB storage
 - HTTP/HTTPS and All traffic (anywhere) enabled
 
