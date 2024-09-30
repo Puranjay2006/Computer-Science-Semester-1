@@ -11,6 +11,8 @@ It offers a wide range of cloud-based services, including:
 5. **Machine Learning** – AI and ML services such as SageMaker for building models.
 6. **Security** – IAM (Identity and Access Management) for managing user access and permissions.
 
+___
+
 # Setting up an account on AWS:
 
 Go to: _https://aws.amazon.com/resources/create-account/_ and follow the instructions to setup an account.
@@ -52,7 +54,7 @@ Type your Key pair name in the 'Key pair name' Section. Select the 'RSA' Key pai
 
 ### Step 6:
 
-In the 'Network settings' section, click on 'Allow HTTP Traffic from the internet'.
+In the 'Network settings' section, click on 'Allow HTTP Traffic from the Internet'.
 
 ### Step 7:
 
@@ -81,7 +83,7 @@ Go to: _https://support.bondtech.se/Guide/How%20to%20install%20PuTTY%20in%20Wind
 
 ### Step 1:
 
-Go on the Instance dashboard. You will notice that the instance is running, and below, a public IP address is visible. Copy that IP address.
+Go to the Instance dashboard. You will notice that the instance is running, and below, a public IP address is visible. Copy that IP address.
 
 If you open the IP address in your browser you'll notice nothing loads because no server is installed on your Instance as of yet. 
 
@@ -91,7 +93,73 @@ Now Open PuTTY. You will notice a section titled "Host Name (or IP Address)". In
 
 ### Step 3:
 
-On the left column, Click "SSH", then click "Auth", and click on "Credentials"
+On the left column, Click "SSH", then click "Auth", and click on "Credentials".
+
+### Step 4:
+
+Click "Browse". Then, select the key pair you downloaded and click "Open".
+
+### Step 5:
+
+Click "Accept". In the username section, type "Ubuntu" and press Enter.
+
+## Using the command line interface
+
+### Step 1:
+
+ '''sudo su
+ apt update'''
+
+This will update the dependencies.
+
+### Step 2:
+
+We need to install the Apache2 HTTP server. For this, run the following command:
+
+'''apt install apache2'''
+
+### Step 3:
+
+If you go into your browser and search for the IP you got earlier,  you'll see this:
+
+### Step 4:
+
+Now, on the PuTTY command line, run the following commands:
+
+'''/var/wwww/html/
+rm index.html
+vi index.html'''
+
+### Step 5:
+
+Now you'll be in the edit window, Press '|'.
+
+### Step 6:
+
+Now you can edit the file. For this tutorial, let us simply type "hi" using the HTML format.
+
+### Step 7:
+
+Next to save the file, first press 'Ctrl+C' (This will bring you out of the edit mode). Then, type ':wq' to exit the window.
+
+### Step 8:
+
+Now on the browser, the "hi" is displayed.
+
+_Using this method you can connect it to your GitHub too._
+
+___
+
+# Closing the Running Instance
+
+It is always recommended to close the running instance. Follow this step to do so:
+
+On the Instances dashboard, right click on the running instance and click on "Terminate Running instance". This will terminate the current instance and stop it from running.
+
+___
+
+
+
 
 
 
