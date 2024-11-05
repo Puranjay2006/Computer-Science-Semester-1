@@ -288,85 +288,35 @@ Step-6: Create the Load Balancer:
 * Add both instances under the load balancer now check the traffic
 
 create instances
-• now we have to create two instnaces where we have to enable the public IPv4 .
+• now we have to create two instances where we have to enable the public IPv4.
 
-•then on both instance we have to downlaod the web server here i have downlaoded the apache2 server
+•then in both instances we have to download the webserver here I have downloaded the apache2 server
 
--- after that i chech that my instances are working or not .
+-- After that, I check whether my instances are working or not.
 
 ![image](https://github.com/user-attachments/assets/ac9df070-7dbd-4862-a989-b52240313ef8)
 
 now we have to create the load balancer
---where we have to give vpc, aviablity zone of the ec2 instance
+--where we have to give vpc, availability zone of the ec2 instance
 
-•then we have to create the target group where we have to select the two insatance we have create then we have to go to helath check edited option which was present below the load balancer is create ,then edit it as given below image
+•then we have to create the target group where we have to select the two instances we have created then we have to go to the health check edited option which was present below the load balancer is created, then edit it as given below image:
 
 ![image](https://github.com/user-attachments/assets/c6690202-9e27-4993-b523-a0567d350c95)
 
-•after that come to load balancer where we have to select the target group which we have created then make the load balancer , it will look like the given image below .
+•after that come to the load balancer where we have to select the target group that has been created and then make the load balancer, it will look like the given image below.
 
 ![image](https://github.com/user-attachments/assets/ab4863dd-1e86-4b52-8117-e25b0c87371f)
 
 ![image](https://github.com/user-attachments/assets/ffd6de02-27ff-4376-8986-f407b62baab3)
 
-now put on any one instance write following commands in putty -
+Now put on any one instance write the following commands in putty -
 
+'''top''
+'''seq 999999999999999999999999999999999999999999999999999999999 > /dev/null &'''
+'''htop'''
 
+![image](https://github.com/user-attachments/assets/ad5e7123-2480-4b42-9416-8072737d1e0c)
 
+Book link for reference of VPC is given below (page 55 )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{ https://www.scribd.com/document/454176546/AWS-lab-practice-guide-by-www-server-computer-com-v1 }
