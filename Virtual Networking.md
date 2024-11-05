@@ -316,7 +316,3 @@ Now put on any one instance write the following commands in putty -
 '''htop'''
 
 ![image](https://github.com/user-attachments/assets/ad5e7123-2480-4b42-9416-8072737d1e0c)
-
-Book link for reference of VPC is given below (page 55 )
-
-{ https://www.scribd.com/document/454176546/AWS-lab-practice-guide-by-www-server-computer-com-v1 }
